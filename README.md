@@ -103,6 +103,25 @@ A full-stack application allowing multiple users to create shared wishlists and 
 *   **Offline Support:** No specific offline capabilities are implemented.
 *   **Data Validation:** Basic validation is done on the backend, but more robust validation and sanitization are recommended.
 
+# Screenshots:
+
+![Image](https://github.com/user-attachments/assets/20306d1d-02f2-49d3-b749-8a8bb3c33bcc)
+
+![Image](https://github.com/user-attachments/assets/5a6258d5-21ee-4f9e-81ed-5f4e513f4764)
+
+![Image](https://github.com/user-attachments/assets/b65ec046-24fe-4903-85d7-2a5685a0f07d)
+
+![Image](https://github.com/user-attachments/assets/23a402c0-bb07-476e-be89-6be1ae675bf5)
+
+![Image](https://github.com/user-attachments/assets/2acafefb-6bd6-4a61-92da-8e05795e0489)
+
+![Image](https://github.com/user-attachments/assets/0ec740b5-9d8c-4233-9379-6eef5ef5b084)
+
+![Image](https://github.com/user-attachments/assets/60266c3c-f1bf-478a-a2cd-93d5f43756ef)
+
+![Image](https://github.com/user-attachments/assets/78c5c5e4-e3cc-4f57-8eee-0f0055bab1db)
+
+![Image](https://github.com/user-attachments/assets/2676e9de-e19e-47fe-867e-63afaf945d4c)
 
 ## Future Improvements & Scaling
 
