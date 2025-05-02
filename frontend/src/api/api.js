@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.MODE === 'development' ? 'http://localhost:5000/api' : 'YOUR_PRODUCTION_BACKEND_URL/api';
+const API_URL = import.meta.env.MODE === 'development' ? 'http://localhost:5000/api' : 'https://wishlist-app-mxtd.onrender.com/api';
 
 const fetchAuthenticated = async (url, method = 'GET', body = null, token) => {
   const headers = {
