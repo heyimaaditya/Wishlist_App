@@ -1,5 +1,4 @@
-const admin = require('firebase-admin');
-const db = admin.database();
+const { admin, db } = require('../config/firebase-admin');
 
 const objectToArray = (obj) => {
     if (!obj) return [];
@@ -136,6 +135,7 @@ exports.updateWishlist = async (req, res) => {
         res.status(500).send('Internal Server Error.');
     }
 };
+
 
 exports.deleteWishlist = async (req, res) => {
     const { id: wishlistId } = req.params;

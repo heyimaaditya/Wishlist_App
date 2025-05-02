@@ -1,5 +1,4 @@
-const admin = require('firebase-admin');
-const db = admin.database();
+const { admin, db } = require('../config/firebase-admin');
 
 exports.addProduct = async (req, res) => {
   const { wishlistId } = req.params;
@@ -91,7 +90,6 @@ exports.updateProduct = async (req, res) => {
         if (updates.imageUrl !== undefined) allowedUpdates.imageUrl = updates.imageUrl;
 
         allowedUpdates.updatedAt = admin.database.ServerValue.TIMESTAMP;
-
 
         await productRef.update(allowedUpdates);
         await db.ref(`wishlists/${wishlistId}/updatedAt`).set(admin.database.ServerValue.TIMESTAMP);
