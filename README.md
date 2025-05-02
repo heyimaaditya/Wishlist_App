@@ -1,5 +1,3 @@
-# Live Link =  https://shared-wishlist-app-50338.web.app
-
 # Shared Product Wishlist App
 
 A full-stack application allowing multiple users to create shared wishlists and manage products collaboratively in real-time.
